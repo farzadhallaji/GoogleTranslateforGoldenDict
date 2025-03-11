@@ -40,9 +40,23 @@ chmod +x google_translate.py
      ```
    - **Working Directory:** `/path/to/script/`
    - **Input Format:** Plain Text
-   - **Output Format:** HTML (or Plain Text)
+   - **Output Format:** HTML 
 
 4. Click **OK**, then **Apply**.
+
+
+## Customization
+- Modify the shortcut in **GoldenDict settings**.
+- Change the **default language** by editing the script’s `target_language`.
+- You can translate to multiple languages by changing the target language parameter.
+  
+### **Examples:**
+```bash
+python3 google_translate.py fr "good morning"  # Translate to French
+python3 google_translate.py de "how are you?"  # Translate to German
+python3 google_translate.py es "thank you"  # Translate to Spanish
+python3 google_translate.py jp "I love programming"  # Translate to Japanese
+```
 
 ### 5. Test the Script
 - Restart **GoldenDict**.
@@ -52,7 +66,7 @@ chmod +x google_translate.py
 ## Usage
 Run manually in the terminal:
 ```bash
-python google_translate.py en "hello world"
+python google_translate.py fa "hello world"
 ```
 Or use **GoldenDict** for instant lookup.
 
@@ -66,4 +80,5 @@ MIT License. Free to use and modify.
 
 ---
 Contributions welcome!
+
 
